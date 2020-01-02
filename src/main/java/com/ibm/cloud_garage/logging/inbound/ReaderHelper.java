@@ -1,5 +1,6 @@
 package com.ibm.cloud_garage.logging.inbound;
 
+import static java.lang.System.lineSeparator;
 import static java.util.stream.Collectors.joining;
 
 import java.io.BufferedReader;
