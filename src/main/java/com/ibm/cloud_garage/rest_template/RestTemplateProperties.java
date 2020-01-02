@@ -5,9 +5,9 @@ import java.util.Objects;
 import org.springframework.http.client.ClientHttpRequestInterceptor;
 import org.springframework.util.StringUtils;
 
-public interface RestTemplateProperties<T extends RestTemplateProperties<T>> {
-    int DEFAULT_CONNECTIONS = 3;
-    int DEFAULT_TIMEOUT = 100;
+public final class RestTemplateProperties<T extends RestTemplateProperties<T>> {
+    public static final int DEFAULT_CONNECTIONS = 3;
+    public static final int DEFAULT_TIMEOUT = 100;
 
     String getProviderEndpoint();
 
