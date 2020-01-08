@@ -1,2 +1,15 @@
 {
+  "DATABASE_NAME": "inventory-dev-tlm", 
+  "CLOUDANT_CONFIG": {
+    "apikey": "NqmRbEjW3MWiZFnykjL_9fDC-HAHpeXawXOV4wuORtp2",
+    "host": "dcc23723-e2ee-48c2-9fce-d4f7071f0da8-bluemix.cloudantnosqldb.appdomain.cloud",
+    "iam_apikey_description": "Auto-generated for key ca9e9042-2daa-4f9b-b3c1-99eb80c5b5d6",
+    "iam_apikey_name": "cloudant-key-dev-tlm",
+    "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+    "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/82cf08a3d55d4f8fa8266f348d7f4362::serviceid:ServiceId-ba5bae3e-78d3-4e6e-a705-784c0ca01f0e",
+    "password": "814561ff393e7d02a3cd43ac691a9a8226b7e42a1825c02246f79ace8efac804",
+    "port": 443,
+    "url": "https://dcc23723-e2ee-48c2-9fce-d4f7071f0da8-bluemix:814561ff393e7d02a3cd43ac691a9a8226b7e42a1825c02246f79ace8efac804@dcc23723-e2ee-48c2-9fce-d4f7071f0da8-bluemix.cloudantnosqldb.appdomain.cloud",
+    "username": "dcc23723-e2ee-48c2-9fce-d4f7071f0da8-bluemix"
+  }
 }
