@@ -4,8 +4,8 @@
 
 global: {}
 
-cloudantBinding="binding-mooc-cpat-ocp01-appid"
-databaseName="inventory-dev-tlm"
+cloudantBinding: "binding-mooc-cpat-ocp01-appid"
+databaseName: "inventory-dev-tlm"
 
 replicaCount: 1
 logLevel: "INFO"
