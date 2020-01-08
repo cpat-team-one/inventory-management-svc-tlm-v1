@@ -17,9 +17,11 @@ import org.springframework.core.env.Environment;
 public class Application extends SpringBootServletInitializer {
     @Autowired
     Environment environment;
+    
     public static void main(String[] args) {
         SpringApplication.run(com.ibm.inventory_management.app.Application.class, args);
     }
+
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
@@ -28,6 +30,7 @@ public class Application extends SpringBootServletInitializer {
             System.out.println("Server started - http://localhost:" + port + "/swagger-ui.html");
         };
     }
+    
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(Application.class);
