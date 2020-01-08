@@ -2,10 +2,10 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+global: {}
+
 cloudantBinding="binding-mooc-cpat-ocp01-appid"
 databaseName="inventory-dev-tlm"
-
-global: {}
 
 replicaCount: 1
 logLevel: "INFO"
