@@ -21,7 +21,7 @@ public class CloudantApi {
         } catch (MalformedURLException e) {
             throw new CloudServicesException("Invalid service URL specified", e);
         }
-        
+
         return ClientBuilder
                 .url(url)
                 .username(config.getUsername())

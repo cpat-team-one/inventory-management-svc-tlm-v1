@@ -15,7 +15,7 @@ public class CloudServicesException extends Exception {
     public CloudServicesException(Throwable cause) {
         super(cause);
     }
-    
+
     public CloudServicesException(
             String message,
             Throwable cause,

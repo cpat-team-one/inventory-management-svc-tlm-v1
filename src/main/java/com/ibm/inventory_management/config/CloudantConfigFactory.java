@@ -21,10 +21,9 @@ public class CloudantConfigFactory {
                 ? System.getProperty("CLOUDANT_CONFIG")
                 : loadCloudantMappingFromLocalDev().getCloudantConfig();
     }
-    
+
     protected CloudantMapping loadCloudantMappingFromLocalDev() throws IOException {
         final ObjectMapper mapper = new ObjectMapper();
-        
         return mapper.readValue(
                 this.getClass().getClassLoader().getResourceAsStream("mappings.json"),
                 CloudantMapping.class
@@ -36,10 +35,9 @@ public class CloudantConfigFactory {
                 ? System.getProperty("DATABASE_NAME")
                 : loadCloudantMappingFromLocalDev().getDatabaseName();
     }
-
+    
     protected CloudantConfig buildConfigFromBinding(String binding, String databaseName) throws IOException {
         final ObjectMapper mapper = new ObjectMapper();
-        
         return mapper.readValue(binding, CloudantConfig.class)
                 .withDatabaseName(databaseName);
     }
