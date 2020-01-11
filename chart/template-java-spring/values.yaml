@@ -4,7 +4,7 @@
 
 global: {} 
 
-cloudantBinding: "mooc-cpat-ocp01-cloudant-key"
+cloudantBinding: "binding-mooc-cpat-ocp01-cloudant"
 databaseName: "inventory-dev-tlm"
 
 replicaCount: 1
